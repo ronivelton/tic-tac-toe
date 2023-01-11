@@ -1,0 +1,11 @@
+.square {
+  border: 4px solid #151f30;
+  font-size: clamp(60px, 10vw, 100px);
+  font-weight: bold;
+  height: clamp(100px, 15vw, 150px);
+  width: clamp(100px, 15vw, 150px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

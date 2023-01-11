@@ -1,0 +1,43 @@
+.boardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.boardInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.boardInfo span,
+.boardInfo button {
+  font-size: clamp(18px, 3vw, 24px);
+  font-weight: 600;
+  color: #151f30;
+}
+
+.boardInfo button {
+  cursor: pointer;
+}
+
+.board {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.boardRows {
+  display: flex;
+}
+
+.boardRows button:nth-child(-n + 2) {
+  margin-right: -4px;
+}
+
+.boardRows:nth-child(n + 2) {
+  margin-top: -4px;
+}
